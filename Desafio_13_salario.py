@@ -1,0 +1,5 @@
+print("Parabéns pelo alto rendimento na empresa!")
+salary_base = (float(input("Para a sua promocao, digite seu salário atual")))
+salary_bonus = (int(input("Digite o valor em porcentagem relativo a sua promocao")))
+salary_promotion = salary_base + (salary_base * salary_bonus/100)
+print("Seu novo salário é R${}".format(salary_promotion))
