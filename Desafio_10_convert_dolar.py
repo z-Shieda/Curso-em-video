@@ -1,3 +1,5 @@
+#Codigo feito com a cotação do dia#
+
 real = float(input("Digite quantos reais você tem"))
 if real >= (5.62):
     convert = real * 0.18
